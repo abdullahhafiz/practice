@@ -4,10 +4,11 @@
     webApp.get('/' ,(req, res)=>{
         res.send('Hello World');
     }).listen(8080);
+    console.log('Web App Is Listening ')
 
     // const port = 8080;
     /* webApp.listen(port,()=>{
-        console.log('Web App Is Listening ')
+        onsole.log('Web App Is Listening ')c
     });*/
     
 
