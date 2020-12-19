@@ -23,7 +23,7 @@ app.get('/', function (req, res) {
  let Email = req.body.Email;
  let DOB = req.body.DOB;
  let newDisplay = {Name:Name , Email:Email, DOB: DOB};
-res.render('showuser',{Name:Name,Email:Email , DOB : DOB, layout:'display'},);
+res.render('showuser',{Name:Name, Email:Email , DOB : DOB, layout:'display'},);
 }).listen(8080);
 
 
